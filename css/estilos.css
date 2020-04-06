@@ -1,0 +1,144 @@
+@charset"utf-8";
+* { margin:10px auto; }
+
+ .img-fluid{ max-width: 100%;
+             height: auto;
+           }
+ .fondo-logo {
+background: rgba(183,222,237,1);
+background: -moz-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(106,200,231,1) 17%, rgba(33,180,226,0.88) 33%, rgba(77,192,229,0.73) 52%, rgba(183,222,237,0.73) 98%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(17%, rgba(106,200,231,1)), color-stop(33%, rgba(33,180,226,0.88)), color-stop(52%, rgba(77,192,229,0.73)), color-stop(98%, rgba(183,222,237,0.73)));
+background: -webkit-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(106,200,231,1) 17%, rgba(33,180,226,0.88) 33%, rgba(77,192,229,0.73) 52%, rgba(183,222,237,0.73) 98%);
+background: -o-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(106,200,231,1) 17%, rgba(33,180,226,0.88) 33%, rgba(77,192,229,0.73) 52%, rgba(183,222,237,0.73) 98%);
+background: -ms-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(106,200,231,1) 17%, rgba(33,180,226,0.88) 33%, rgba(77,192,229,0.73) 52%, rgba(183,222,237,0.73) 98%);
+background: linear-gradient(135deg, rgba(183,222,237,1) 0%, rgba(106,200,231,1) 17%, rgba(33,180,226,0.88) 33%, rgba(77,192,229,0.73) 52%, rgba(183,222,237,0.73) 98%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=1 );
+           
+             } 
+ .bodya {
+      height: 350px;
+      background-image: url("../Img/uni.gif");
+      background-position: center center;/*centrar horizontal y vertical*/
+      background-repeat: no-repeat;  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+         la altura del contenido supere la altura de la imagen. */
+      background-attachment: fixed;  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana del navegador */
+      background-size: cover; /* Fijamos un color de fondo mientras se esta cargando la imagen o si no se puede cargar*/
+      background-color: white;    
+    } 
+    .bodyc {
+      height: 400px;
+      background-image: url("../Img/uni.gif");
+      background-position: center center;/*centrar horizontal y vertical*/
+      background-repeat: no-repeat;  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+         la altura del contenido supere la altura de la imagen. */
+      background-attachment: fixed;  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana del navegador */
+      background-size: cover; /* Fijamos un color de fondo mientras se esta cargando la imagen o si no se puede cargar*/
+      background-color: white;    
+    }
+    .bodye {
+      height: 250px;
+      background-image: url("../Img/uni.gif");
+      background-position: center center;/*centrar horizontal y vertical*/
+      background-repeat: no-repeat;  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+         la altura del contenido supere la altura de la imagen. */
+      background-attachment: fixed;  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana del navegador */
+      background-size: cover; /* Fijamos un color de fondo mientras se esta cargando la imagen o si no se puede cargar*/
+      background-color: white;    
+    } 
+    .bodyb {
+      height: 350px;
+      background-image: url("../Img/imagen.jpg");
+      background-position: center center;/*centrar horizontal y vertical*/
+      background-repeat: no-repeat;  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+         la altura del contenido supere la altura de la imagen. */
+      background-attachment: fixed;  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana del navegador */
+      background-size: cover; /* Fijamos un color de fondo mientras se esta cargando la imagen o si no se puede cargar*/
+      background-color: white;    
+    }        
+
+ .sectionuno {
+background: rgba(241,231,103,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,0.51) 66%, rgba(254,182,69,0.25) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(241,231,103,1)), color-stop(66%, rgba(254,182,69,0.51)), color-stop(100%, rgba(254,182,69,0.25)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,0.51) 66%, rgba(254,182,69,0.25) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,0.51) 66%, rgba(254,182,69,0.25) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(241,231,103,1) 0%, rgba(254,182,69,0.51) 66%, rgba(254,182,69,0.25) 100%);
+background: radial-gradient(ellipse at center, rgba(241,231,103,1) 0%, rgba(254,182,69,0.51) 66%, rgba(254,182,69,0.25) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+             } 
+
+  .sectiondos {
+background: rgba(82,128,255,1);
+background: -moz-radial-gradient(center, rgba(82,128,255,1) 0%, rgba(230,67,197,1) 0%, rgba(230,67,197,0.09) 92%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(82,128,255,1)), color-stop(0%, rgba(230,67,197,1)), color-stop(92%, rgba(230,67,197,0.09)));
+background: -webkit-radial-gradient(center, rgba(82,128,255,1) 0%, rgba(230,67,197,1) 0%, rgba(230,67,197,0.09) 92%);
+background: -o-radial-gradient(center, rgba(82,128,255,1) 0%, rgba(230,67,197,1) 0%, rgba(230,67,197,0.09) 92%);
+background: -ms-radial-gradient(center, rgba(82,128,255,1) 0%, rgba(230,67,197,1) 0%, rgba(230,67,197,0.09) 92%);
+background: radial-gradient(ellipse at center, rgba(82,128,255,1) 0%, rgba(230,67,197,1) 0%, rgba(230,67,197,0.09) 92%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5280ff', endColorstr='#e643c5', GradientType=1 );
+
+border-radius: 100px 100px 100px 100px;
+moz-border-radius: 100px 100px 100px 100px;
+-webkit-border-radius: 100px 100px 100px 0px;
+border: 0px inherit #000000;
+-webkit-box-shadow: 100px 100px 100px -10px rgba(0,0,0,1);
+-moz-box-shadow: 100px 100px 100px -10px rgba(0,0,0,1);
+box-shadow: 26px 26px 30px -21px rgba(0,0,0,1);
+ float: right;
+  transform: rotateX(340deg)rotateY(1deg);
+             }   
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+
+}
+@keyframes example {
+  0%   {background-color:red; left:250px; top:600px;}
+  25%  {background-color:yellow; left:250px; top:0px;}
+  50%  {background-color:blue; left:250px; top:250px;}
+  75%  {background-color:green; left:-250px; top:250px;}
+  100% {background-color:red; left:-250px; top:0px;}
+}
+
+/* The element to apply the animation to */
+.icon {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  position: relative;
+  animation-iteration-co  unt: 2;
+  animation-direction: alternate;
+}              
+
+
+.flotante {
+    display:scroll;
+        position:fixed;
+        bottom:5px;
+        right:0px;
+}
+.titulo {
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Arial";
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  color: #FFF;
+  text-align: center;
+}
+ 
+                
+         
