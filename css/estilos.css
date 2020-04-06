@@ -17,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', end
              } 
  .bodya {
       height: 350px;
-      background-image: url("../Img/uni.gif");
+      background-image: url("../img/uni.gif");
       background-position: center center;/*centrar horizontal y vertical*/
       background-repeat: no-repeat;  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
          la altura del contenido supere la altura de la imagen. */
@@ -27,7 +27,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', end
     } 
     .bodyc {
       height: 400px;
-      background-image: url("../Img/uni.gif");
+      background-image: url("../img/uni.gif");
       background-position: center center;/*centrar horizontal y vertical*/
       background-repeat: no-repeat;  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
          la altura del contenido supere la altura de la imagen. */
@@ -37,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', end
     }
     .bodye {
       height: 250px;
-      background-image: url("../Img/uni.gif");
+      background-image: url("../img/uni.gif");
       background-position: center center;/*centrar horizontal y vertical*/
       background-repeat: no-repeat;  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
          la altura del contenido supere la altura de la imagen. */
@@ -47,7 +47,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', end
     } 
     .bodyb {
       height: 350px;
-      background-image: url("../Img/imagen.jpg");
+      background-image: url("../img/imagen.jpg");
       background-position: center center;/*centrar horizontal y vertical*/
       background-repeat: no-repeat;  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
          la altura del contenido supere la altura de la imagen. */
